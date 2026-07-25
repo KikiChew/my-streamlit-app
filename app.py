@@ -6,7 +6,7 @@ from joblib import load
 nltk.download('punkt')
 
 # Load the saved Naive Bayes classifier
-bayes = load('bayes_classifier.joblib')
+bayes = load('linear_regression_model.joblib')
 
 # Load the vocabulary saved in Question 3 (must load BEFORE the function uses it)
 with open('top_keys.txt', 'r') as f:
